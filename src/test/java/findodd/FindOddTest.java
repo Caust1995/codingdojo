@@ -14,7 +14,7 @@ public class FindOddTest {
     public void findOddWithAnotherElement() {
         assertEquals(2, FindOdd.findIt(new int[]{2}));
     }
-
+    
     @Test
     public void findOddWithThreeElements() {
         assertEquals(2, FindOdd.findIt(new int[]{1, 2, 1}));
